@@ -93,8 +93,8 @@ export default createStore({
         deleteGame({ commit }, index) {
             commit("delete_Game", index);
         },
-        updateGame({ commit }, game, id) {
-            commit("update_Game", game, id)
+        updateGame({ commit }, game) {
+            commit("update_Game", game)
         }
     },
     modules: {}
