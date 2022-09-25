@@ -1,0 +1,49 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main>h1 {
+    margin: 20px;
+}
+
+.table {
+    width: 1700px;
+    word-wrap: break-word;
+    table-layout: fixed;
+    overflow: scroll;
+}
+
+.table th {
+    background-color: #b7e4c7;
+    color: #1d1d1d;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+.table td {
+    text-align: center;
+    width: 150px;
+    background-color: #d1d1d1;
+    color: #252525;
+    padding: 12px;
+}
+
+td>a {
+    color: #1d1d1d;
+}
+
+td>a:hover {
+    font-weight: bold;
+}
+
+td>label {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+td>label:hover {
+    font-weight: bold;
+}

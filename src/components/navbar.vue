@@ -1,6 +1,6 @@
 <template>
   <header>
-    <img :src="require(`@/assets/gamelist.png`)" width="80" />
+    <img :src="require(`@/assets/imgs/gamelist.png`)" width="80" />
     <h2>Game List</h2>
   </header>
   <nav>
@@ -15,7 +15,7 @@
 export default {
   name: 'navbar',
   components: {
-  }
+  },
 }
 </script>
  

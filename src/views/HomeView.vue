@@ -11,7 +11,7 @@
             <th>Completo</th>
             <th>Categoria</th>
             <th>Tempo Jogado</th>
-            <th>Links</th>
+            <th>Funções</th>
           </tr>
         </thead>
         <Game></Game>
@@ -32,43 +32,5 @@ export default {
 
 
 <style>
-.home{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.main>h1 {
-  margin: 20px;
-}
-
-.table {
-  width: 1700px;
-  word-wrap: break-word;
-  table-layout: fixed;
-}
-
-.table th {
-  background-color: #b7e4c7;
-  color: #1d1d1d;
-  padding: 10px;
-  text-decoration: underline;
-}
-
-.table td {
-  text-align: center;
-  width: 150px;
-  background-color: #d1d1d1;
-  color: #252525;
-  padding: 20px;
-}
-
-.a {
-  color: #1d1d1d;
-}
-
-.a:hover {
-  font-weight: bold;
-}
+@import url("../assets/css/table.css");
 </style>

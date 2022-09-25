@@ -1,42 +1,39 @@
 <template>
     <tbody>
-        <tr v-for="(game, index) in list" :key="index">
+        <tr v-for="(game, index) in allGames" :key="index">
             <td>{{game.name}}</td>
             <td>{{game.description}}</td>
             <td>{{game.plataforms}}</td>
-            <td v-if="game.completed == true" style="color:#8B0000;">Completo</td>
-            <td v-else style="color:#0000CD	;">Incompleto</td>
+            <td v-if="game.completed == true" style="color:#0000CD;">Completo</td>
+            <td v-else style="color:#8B0000;">Incompleto</td>
             <td>{{game.time_played}} Horas</td>
             <td>{{game.category}}</td>
             <td>
-                <router-link to="/update" class="a" @onclick="addgame(index)">Update</router-link> |
-                <a class="a" @onclick="console.log(game.name)">Delete</a>
+                <router-link v-bind:to="{name:'update', params:{id:index}}" >Update</router-link> |
+                <label v-on:click="delete_Game(index)">Delete</label>
             </td>
         </tr>
     </tbody>
-    {{test}}
 </template>
 
 <script>
-// @ is an alias to /src
+import { mapGetters } from "vuex";
+import { mapActions } from "vuex";
 
 export default {
     name: 'game_form',
     data() {
         return {
-            list: this.$store.state.list,
-            test:"aa"
         }
     },
     computed: {
-        getGame() {
-            return this.list
-        }
+        ...mapGetters(["allGames"])
     },
     methods: {
-        addgame() {
-            this.test = "a"
-        }
+        ...mapActions(["deleteGame"]),
+        delete_Game(index) {
+            this.deleteGame(index)
+        },
     }
 }
 </script>

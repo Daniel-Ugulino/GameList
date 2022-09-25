@@ -14,7 +14,7 @@ const routes = [{
         component: CreateView
     },
     {
-        path: '/update',
+        path: '/update/:id',
         name: 'update',
         component: UpdateView
     }
