@@ -2,11 +2,14 @@
 
 Assessment: Frameworks Front-end e conexão com Back-end AT Daniel Ugulino
 
-## Description
+## Descrição
 
-Projeto Desenvolvido para avaliação do Assessment do Aluno Daniel da Fonseca Ugulino
+Projeto Desenvolvido para avaliação do Assessment de Frameworks Front-end e conexão com Back-end
+do aluno Daniel da Fonseca Ugulino
+O projeto consiste em uma lista TODO para controle dos jogos do usuario, podendo realizar todo o CRUD junto ao projeto
+Projeto foi feito utilizando: Vue, Vuex, vue-router e vuelidate
 
-## Authors
+## Autor
 
 Daniel da Fonseca Ugulino
 
