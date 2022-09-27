@@ -6,8 +6,8 @@
             <td>{{game.plataforms}}</td>
             <td v-if="game.completed == true" style="color:#0000CD;">Completo</td>
             <td v-else style="color:#8B0000;">Incompleto</td>
-            <td>{{game.time_played}} Horas</td>
             <td>{{game.category}}</td>
+            <td>{{game.time_played}} Horas</td>
             <td>
                 <router-link v-bind:to="{name:'update', params:{id:index}}" >Update</router-link> |
                 <label v-on:click="delete_Game(index)">Delete</label>
