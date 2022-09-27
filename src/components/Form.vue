@@ -109,7 +109,7 @@ export default {
       this.$refs.form.reset()
     },
 
-    errorfomr() {
+    errorform() {
       this.v$.$errors.forEach(error => {
         const prop = document.getElementsByName(error.$property)
         prop[0].style = "border-color:#8B0000;"
@@ -150,7 +150,7 @@ export default {
 
       }
       else {
-        this.errorfomr()
+        this.errorform()
       }
     }
   }
