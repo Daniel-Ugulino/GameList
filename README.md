@@ -1,6 +1,6 @@
 # Game-List
 
-Assessment: Frameworks Front-end e conexão com Back-end AT Daniel Ugulino
+Assessment: Frameworks Front-end e conexão com Back-end AT Daniel F. Ugulino
 
 ## Descrição
 
