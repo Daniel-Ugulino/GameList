@@ -13,8 +13,6 @@ Projeto foi feito utilizando: Vue, Vuex, vue-router e vuelidate
 
 Daniel da Fonseca Ugulino
 
-## Getting Started
-
 ## Project setup
 ```
 npm install
