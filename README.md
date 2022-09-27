@@ -8,6 +8,7 @@ Projeto Desenvolvido para avaliação do Assessment de Frameworks Front-end e co
 do aluno Daniel da Fonseca Ugulino
 
 O projeto consiste em uma lista TODO para controle dos jogos do usuario, podendo realizar todo o CRUD junto ao projeto
+
 Projeto foi feito utilizando: Vue, Vuex, vue-router e vuelidate
 
 ## Autor
